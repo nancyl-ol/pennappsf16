@@ -33,7 +33,7 @@ Requires: all trip parameters
 `PUT /api/trips/:id` update trips
 Requires: trip id
 
-
+```
 var userSchema = new Schema({
   name: String,
   username: String,
@@ -43,9 +43,10 @@ var userSchema = new Schema({
   occupation: String,
   number: String
   });
+```
 
 
-
+```
 var rideSchema = new Schema({
   driver: Schema.Types.ObjectId,
   riders: [Schema.Types.ObjectId],
@@ -57,4 +58,4 @@ var rideSchema = new Schema({
   accepted: Boolean,
   paid: Boolean
 });
-
+```
