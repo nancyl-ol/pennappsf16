@@ -39,7 +39,7 @@ var userSchema = new Schema({
   username: String,
   password: String,
   age: Number,
-  gender: Boolean,
+  gender: String,
   occupation: String,
   number: String
   });
