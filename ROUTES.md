@@ -7,17 +7,20 @@
 `POST /api/users` create new user
 
 
-`GET /api/users/:id`
+`GET /api/users/:id` get specific user
 
 
-`PUT /api/users/:id`
+`PUT /api/users/:id` update user
 
 
-`DELETE /api/users/:id`
+`DELETE /api/users/:id` deletes user
 
 
-`GET /api/trips`
+`GET /api/trips` return trips according to specifications
 
 
-`PUT /api/trips`
+`POST /api/trips` add new trip
+
+
+`PUT /api/trips/:id` update trips
 
