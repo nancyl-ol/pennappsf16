@@ -42,7 +42,7 @@ var userSchema = new Schema({
   gender: Boolean,
   occupation: String,
   number: String
-});
+  });
 
 
 
