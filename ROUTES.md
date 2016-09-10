@@ -1,10 +1,10 @@
 `POST /api/login` check login credentials
 
 
-`GET /api/users/` return list of users
+`GET /api/users` return list of users
 
 
-`POST /api/users/` create new user
+`POST /api/users` create new user
 
 
 `GET /api/users/:id`
