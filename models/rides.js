@@ -4,7 +4,6 @@ var mongoose = require('mongoose');
 
 var Schema = mongoose.Schema;
 var rideSchema = new Schema({
-  id: Schema.Types.ObejectId,
   driver: Schema.Types.ObjectId,
   riders: [Schema.Types.ObjectId],
   from: String,

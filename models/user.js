@@ -5,7 +5,6 @@ var userSchema = new Schema({
   name: String,
   username: String,
   password: String,
-  id: Schema.Types.ObjectId,
   age: Number,
   gender: Boolean,
   occupation: String,
