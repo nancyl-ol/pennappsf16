@@ -1,0 +1,22 @@
+{
+  "name": "pennapps",
+  "version": "1.0.0",
+  "description": "Ride-sharing for long distance trips",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nancyl-ol/pennappsf16.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nancyl-ol/pennappsf16/issues"
+  },
+  "homepage": "https://github.com/nancyl-ol/pennappsf16#readme",
+  "dependencies": {
+    "mongoose": "^4.6.0"
+  }
+}
